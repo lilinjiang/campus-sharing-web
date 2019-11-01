@@ -1,6 +1,5 @@
 # campus-sharing-web
-校园共享App
-<<<<<<< HEAD
+# 校园共享App
 
 ## Project setup
 ```
