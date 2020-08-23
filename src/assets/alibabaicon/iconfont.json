@@ -41,11 +41,32 @@
       "unicode_decimal": 59187
     },
     {
+      "icon_id": "1890665",
+      "name": "密码",
+      "font_class": "Secret",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2292602",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e8ee",
+      "unicode_decimal": 59630
+    },
+    {
       "icon_id": "2681693",
       "name": "火",
       "font_class": "huo1",
       "unicode": "e606",
       "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3145568",
+      "name": "手机",
+      "font_class": "shouji-copy",
+      "unicode": "e691",
+      "unicode_decimal": 59025
     },
     {
       "icon_id": "6756281",

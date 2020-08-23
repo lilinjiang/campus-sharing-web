@@ -95,7 +95,6 @@ export default {
         'https://img.yzcdn.cn/vant/cat.jpeg',
         'https://img.yzcdn.cn/vant/cat.jpeg',
         'http://i5.bbs.fd.zol-img.com.cn/t_s800x5000/g3/M05/05/09/Cg-4V1DPHT-Iai_SAAHD-4qBA14AADV9gNva6UAAcQT185.jpg',
-        'http://pic22.nipic.com/20120629/9363864_135939629103_2.jpg',
         'https://img.yzcdn.cn/vant/cat.jpeg'
       ]
     }
@@ -105,6 +104,7 @@ export default {
       console.log('"dddd"')
     },
     img: function () {
+      // 用于设置图片浏览
       ImagePreview([
         'https://img.yzcdn.cn/1.jpg',
         'https://img.yzcdn.cn/2.jpg'
@@ -122,6 +122,14 @@ export default {
     [Image.name]: Image, // 图片显示组件
     [ImagePreview.name]: ImagePreview,
     'authorIcon': AuthorIcon
+  },
+  beforeCreate () {
+    // 每当该组件创建的时候将body的颜色改变
+    window.document.body.style.backgroundColor = '#F7F8FA'
+  },
+  beforeDestroy () {
+    // 每当该组件销毁的时候将body的颜色改变
+    window.document.body.style.backgroundColor = ''
   }
 }
 </script>
